@@ -30,7 +30,7 @@ public class WebMvcConfigure implements WebMvcConfigurer {
                 .allowedOrigins("*")
                 .allowedMethods("*")
                 .allowedHeaders("*")
-                .exposedHeaders("jwt-auth-toekn"); // 클라이언트로 header값 반환시 사용 (*이면 전부)
+                .exposedHeaders("jwt-auth-token"); // 클라이언트로 header값 반환시 사용 (*이면 전부)
     }
 
     @Override
